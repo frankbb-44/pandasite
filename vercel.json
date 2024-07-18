@@ -1,14 +1,14 @@
 {
     "builds": [
       {
-        "src": "D:\Pandasite\PandaSite\PandaSite\wsgi.py",
+        "src": "PandaSite\PandaSite\wsgi.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "D:\Pandasite\PandaSite\PandaSite\wsgi.py"
+        "dest": "PandaSite\PandaSite\wsgi.py"
       }
     ]
 }
